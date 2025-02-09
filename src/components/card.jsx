@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 
 const Card = () => {
-  const { data, isLoading,isError } = useQuery({
+  const { data, isLoading, isError } = useQuery({
     queryFn: async () => {
       try {
         const dataFetch = await fetch("https://fakestoreapi.com/products");

@@ -74,7 +74,7 @@ const AddProductForm = () => {
       }}
       validationSchema={toFormikValidationSchema(addProductFormSchema)}
     >
-      {({ errors }) => (
+      {({errors}) => (
         <Form>
           <div className="p-4">
             <div>

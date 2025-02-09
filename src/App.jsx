@@ -4,7 +4,6 @@ import Card from "./components/card";
 import Modal from "./components/modal";
 import { IoMdCloseCircle } from "react-icons/io";
 import AddProductForm from "./forms/addProduct";
-import SimpleForm from "./forms/simpleForm";
 
 function App() {
   const [openModal, setOpenModal] = useState(false);
@@ -21,8 +20,7 @@ function App() {
               />
             </div>
 
-            <SimpleForm/>
-            {/* <AddProductForm /> */}
+            <AddProductForm />
           </div>
         </Modal>
       ) : null}
